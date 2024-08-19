@@ -5,6 +5,7 @@ import csv
 import math
 from typing import List
 
+
 def index_range(page: int, page_size: int) -> tuple:
     """
     Returns a tuple of (start_index, end_index) for pagination.

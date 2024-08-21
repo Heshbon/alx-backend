@@ -12,7 +12,7 @@ class FIFOCache(BaseCaching):
 
     def put(self, key, item):
         """ Assigns item value for the key in self.cache_data dictionary.
-            Discards the first item added if the cache exceeds its limit.
+            Discards the the first item put in cache (FIFO algorithm)
             Does nothing if key or item is None."""
         if key is not None and item is not None:
             if key in self.cache_data:
@@ -27,6 +27,6 @@ class FIFOCache(BaseCaching):
                 print("DISCARD:", discarded)
 
     def get(self, key):
-        """ Returns the value linked to key in self.cache_data.
+        """ Returns the value in self.cache_data linked to key
             Returns None if key is None or key doesn't"""
         return self.cache_data.get(key, None)

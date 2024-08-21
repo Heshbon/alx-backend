@@ -30,20 +30,24 @@ By the end of this project, I was be able to:
 
 # 0. Basic dictionary
 
-  + <u>[0-basic_cache.py]()</u>: Create a class BasicCache that inherits from BaseCaching and is a caching system.
+  + <u>[0-basic_cache.py](https://github.com/Heshbon/alx-backend/blob/master/0x01-caching/0-basic_cache.py)</u>: Create a class BasicCache that inherits from BaseCaching and is a caching system.
 
 # 1. FIFO caching
 
-  + <u>[1-fifo_cache.py]()</u>: Create a class FIFOCache that inherits from BaseCaching and is a caching system.
+  + <u>[1-fifo_cache.py](https://github.com/Heshbon/alx-backend/blob/master/0x01-caching/1-fifo_cache.py)</u>: Create a class FIFOCache that inherits from BaseCaching and is a caching system.
 
 # 2. LIFO Caching
 
-  + <u>[2-lifo_cache.py]()</u>: Create a class LIFOCache that inherits from BaseCaching and is a caching system.
+  + <u>[2-lifo_cache.py](https://github.com/Heshbon/alx-backend/blob/master/0x01-caching/2-lifo_cache.py)</u>: Create a class LIFOCache that inherits from BaseCaching and is a caching system.
 
 # 3. LRU Caching
 
-  + <u>[3-lru_cache.py]()</u>: Create a class LRUCache that inherits from BaseCaching and is a caching system.
+  + <u>[3-lru_cache.py](https://github.com/Heshbon/alx-backend/blob/master/0x01-caching/3-lru_cache.py)</u>: Create a class LRUCache that inherits from BaseCaching and is a caching system.
 
 # 4. MRU Caching
 
-  + <u>[4-mru_cache.py]()</u>: Create a class MRUCache that inherits from BaseCaching and is a caching system
+  + <u>[4-mru_cache.py](https://github.com/Heshbon/alx-backend/blob/master/0x01-caching/4-mru_cache.py)</u>: Create a class MRUCache that inherits from BaseCaching and is a caching system.
+
+# 5. LFU Caching
+
+  + <u>[100-lfu_cache.py](https://github.com/Heshbon/alx-backend/blob/master/0x01-caching/100-lfu_cache.py)</u>: Create a class LFUCache that inherits from BaseCaching and is a caching system.

@@ -21,7 +21,7 @@ babel = Babel(app)
 
 @app.route('/')
 def index():
-    """ The route for the index page."""
+    """ The default route"""
     return render_template('1-index.html')
 
 
